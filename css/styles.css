@@ -1,0 +1,53 @@
+/* import de fuente roboto para page */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+/* se agrego color minimalista y estilo de fuente para el texto */
+body{
+    background-color: #e2e0d5;
+    font-family: 'Roboto', sans-serif;
+}
+/* color blanco para el ticket, margen superior, padding para el contenido y redondeo de las esquinas*/
+.container{
+    background-color: #fff;
+    margin-top: 6rem;
+    padding: 1% 3%;
+    border-radius: 1rem;  
+}
+
+/* centrado y negrita de titulo */
+.container h2{
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* colores para el contenido*/
+.container{
+    background-color:#d4e8dc;
+    border: 1px solid black;
+}
+.table{
+background-color: #cebeb9;
+}
+
+tbody tr{
+    background-color: #e2e0d5;
+}
+
+.rating{
+    margin-right: 5px;
+}
+thead th{
+    font-weight: bold;
+}
+tbody, thead th{
+    text-align: center;
+}
+tbody td:hover{
+    background-color: honeydew;
+}
