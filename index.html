@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');*{box-sizing:border-box}body{background-color:#e2e0d5;font-family:'Roboto',sans-serif}.container{background-color:#fff;margin-top:3.5rem;padding:1% 3%;border-radius:1rem}.container h2{text-align:center;font-weight:bold}.container{background-color:#d4e8dc;border:1px solid black}.table{background-color:#cebeb9}tbody tr{background-color:#e2e0d5}.rating{margin-right:5px}thead th{font-weight:bold;font-size:23px}tbody, thead th{text-align:center}tbody td:hover{background-color:honeydew}</style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
     <title>QuickView Module</title>
 </head>
 <body>
@@ -14,30 +17,33 @@
 
         <h2>Ticket #33124</h2>
         <p><span class="badge bg-dark"></span></p>
-          <div class="row">
-                <table class="table table-striped">
-        <thead>
-        <tr>
-        <th class="head-col" scope="col">Info</th><th class="head-col" scope="col">State</th></tr>
-        </thead>
-        <tbody>
-        <tr>
-        <td>Status</td><td>Pedding</td></tr>
-        <tr>
-        <td>Privacy</td><td></td></tr>
-        <tr>
-        <td>Priority</td><td></td></tr>
-        <tr>
-        <td>Existing</td><td>Pedding</td></tr>
-        <tr>
-        <td>Date</td><td>23-9-2020</td></tr>
-        <tr>
-        <td>Expire</td><td>05/04/2021 14:20:35</td></tr>
-        </tbody>
+        <div class="row">
+          <div class="tb-sc">
+        <table class="table table-dark table-striped table-hover table-responsive tb-sc">
+          <thead>
+            <tr>
+              <th class="head-col" scope="col">Info</th><th class="head-col" scope="col">State</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Status</td><td>Pedding</td></tr>
+            <tr>
+              <td>Privacy</td><td></td></tr>
+            <tr>
+              <td>Priority</td><td></td></tr>
+            <tr>
+              <td>Existing</td><td>Pedding</td></tr>
+            <tr>
+              <td>Date</td><td>23-9-2020</td></tr>
+            <tr>
+              <td>Expire</td><td>05/04/2021 14:20:35</td>
+            </tr>
+          </tbody>
         </table><div class="clearfix">
-          <div class="rating">
+        </div>
+          <div class="rating-container">
               <ul class="nav">
-                <!-- se agrego el tag p para dar mas margen entre el texto y los iconos -->
+                <!-- The p tag was added to give more margin between the text and the icons -->
                   <p class="rating">Rating</p>          
                   <li><i alt="Is Best Basic" class="fa fa-star"></i></li>
                   <li><i alt="Is Best Basic" class="fa fa-star"></i></li>
@@ -50,7 +56,7 @@
         <!--div rating -->
         
         <!-- <div class="d-grid gap-2 col-6 mx-auto">
-        <a class="btn btn-sm btn-info" href="https://serviciotecnico.test/register" role="button">Register To More Information</a>
+        <a class="btn btn-sm btn-dark" href="https://serviciotecnico.test/register" role="button">Register To More Information</a>
         </div> 
 
         <div class="d-grid gap-2 col-6 mx-auto">
@@ -58,15 +64,12 @@
         </div> -->
 
         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-          <a class="btn btn-sm btn-info" href="https://serviciotecnico.test/register" role="button">Register To More Information</a>
+          <a class="btn btn-sm btn-dark" href="https://serviciotecnico.test/register" role="button">Register To More Information</a>
           <a class="btn btn-sm btn-warning" href="https://serviciotecnico.test/login" role="button">Login To More Information</a>
         </div>
       
         </main><!-- /.container -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <link rel="stylesheet" href="/css/styles.css">
-
+        
         
 </body>
 </html>
