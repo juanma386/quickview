@@ -7,7 +7,8 @@
 
 /* se agrego color minimalista y estilo de fuente para el texto */
 body{
-    background-color: #e2e0d5;
+    background-color: #FFF;
+    
     font-family: 'Roboto', sans-serif;
 }
 /* color blanco para el ticket, margen superior, padding para el contenido y redondeo de las esquinas*/
@@ -20,7 +21,7 @@ body{
 
 /* centrado y negrita de titulo */
 .container h2{
-    
+    color: white;
     text-align: center;
     font-weight: bold;
 }
@@ -28,27 +29,55 @@ body{
 
 /* colores para el contenido*/
 .container{
-    background-color:#d4e8dc;
+    color: white;
+    background-color:#333;
     border: 1px solid black;
 }
 .table{
-background-color: #cebeb9;
+    color: white;
+background-color: #333;
 }
 
 tbody tr{
-    background-color: #e2e0d5;
+    background-color: #333;
+    color: white;
+}
+tbody tr td{
+    background-color: #333;
+    color: white;
 }
 
 .rating{
     margin-right: 5px;
 }
+.rating-container{
+    
+    /* background-color: lightblue; */
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nav{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
 thead th{
+    color: white;
     font-weight: bold;
     font-size: 23px;
 }
 tbody, thead th{
     text-align: center;
 }
-tbody td:hover{
-    background-color: honeydew;
+.tb-sc
+{
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+.tb-sc table{
+    
+    width: 100%;
 }
