@@ -1,5 +1,5 @@
 # Module Quickview 
-Modulo mejorado gracias a [Héctor Manuel Martínez Moreira](https://hx2.xyz/edcps)
+Improved module thanks to [Héctor Manuel Martínez Moreira](https://hx2.xyz/edcps)
 Result this repository: [github.io](https://juanma386.github.io/quickview/)
 * 1 Create a friendlier, more adaptable and more acceptable version
 * 2 Pull request a proporsal to solve this VERSION
