@@ -1,17 +1,17 @@
-/* import de fuente roboto para page */
+/* import from roboto font for page */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 *{
     box-sizing: border-box;
 }
 
-/* se agrego color minimalista y estilo de fuente para el texto */
+/* added font style for text */
 body{
     background-color: #FFF;
     
     font-family: 'Roboto', sans-serif;
 }
-/* color blanco para el ticket, margen superior, padding para el contenido y redondeo de las esquinas*/
+/* white color for the ticket, top margin, padding for the content and rounding of the corners*/
 .container{
     background-color: #fff;
     margin-top: 3.5rem;
@@ -19,7 +19,7 @@ body{
     border-radius: 1rem;  
 }
 
-/* centrado y negrita de titulo */
+/* centered and bold title */
 .container h2{
     color: white;
     text-align: center;
@@ -27,33 +27,27 @@ body{
 }
 
 
-/* colores para el contenido*/
+/* colors for content*/
 .container{
     color: white;
     background-color:#333;
     border: 1px solid black;
 }
-.table{
+.table, tbody tr, tbody tr td{
     color: white;
 background-color: #333;
 }
 
-tbody tr{
-    background-color: #333;
-    color: white;
-}
-tbody tr td{
-    background-color: #333;
-    color: white;
-}
 
+/* margin was added for the text with tag p, rating */
 .rating{
     margin-right: 5px;
 }
+/* Center responsive for the content of the rating */
 .rating-container{
     
     /* background-color: lightblue; */
-    width: 40%;
+    width: 42%;
     margin-right: auto;
     margin-left: auto;
 }
@@ -71,6 +65,8 @@ thead th{
 tbody, thead th{
     text-align: center;
 }
+
+/* Center responsive for the content of the table */
 .tb-sc
 {
     
